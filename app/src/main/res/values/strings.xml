@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Debt Collector</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Debt Collector</string>
+    <string name="nav_header_subtitle">The app that counts</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_debt">Current debt:\u0020</string>
+    <string name="total_payment">Total payment</string>
+    <string name="dollar_sign">$</string>
+    <string name="_0_00">0.00</string>
+    <string name="add_this_amount">Add this amount</string>
+    <string name="pay_off_this_amount">Pay off this amount</string>
+    <string name="set_as_new_total">Set as new total</string>
+    <string name="_0">0</string>
+    <string name="decimal_point">.</string>
+    <string name="_00">00</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="add_to_debt">Add to debt</string>
+    <string name="pay_off_debt">Pay off debt</string>
+    <string name="set_new_total">Set new total</string>
+    <string name="undo">Undo</string>
+    <string name="undo_last_payment">Undo last payment</string>
+
+    <string name="tab_weekly">Weekly</string>
+    <string name="tab_monthly">Monthly</string>
+    <string name="tab_yearly">Yearly</string>
+
+</resources>

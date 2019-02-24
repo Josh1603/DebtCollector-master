@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="decimal_point_separator_switch"
+        android:summary="Separates dollar and cent input with a decimal point when selected."
+        android:title="Decimal Point Separator"/>
+
+    <android.support.v7.preference.ListPreference
+        android:key="theme_settings_list"
+        android:title="Themes"
+        android:defaultValue="defaultTheme"
+        android:entries="@array/themes_array"
+        android:entryValues="@array/theme_values_array"
+        android:summary="Tap to select a theme" />
+        <!-- android:icon=""
+        android:dialogIcon="" -->
+    <android.support.v7.preference.Preference
+        android:key="theme_delete"
+        android:title="Delete History"
+        android:defaultValue="defaultTheme"
+        android:entries="@array/themes_array"
+        android:entryValues="@array/theme_values_array"
+        android:summary="Tap to delete debt history" />
+
+</android.support.v7.preference.PreferenceScreen>

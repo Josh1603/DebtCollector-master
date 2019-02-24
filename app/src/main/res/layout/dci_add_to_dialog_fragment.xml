@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_to_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/fragmentBackgroundColor"
+    android:layout_gravity="center">
+    <!-- Use to modify fragment background //android:background="@android:color/holo_red_light" -->
+
+    <TextView
+        android:id="@+id/add_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/add_this_amount"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/dollar_sign" />
+
+    <TextView
+        android:id="@+id/dollar_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dollar_sign"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintRight_toLeftOf="@+id/dollars"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_message"
+        app:layout_constraintBottom_toTopOf="@id/addButton" />
+
+    <EditText
+        android:id="@+id/dollars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/_0"
+        android:textSize="22sp"
+        android:maxLength="5"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        app:layout_constraintRight_toLeftOf="@+id/decimal"
+        app:layout_constraintLeft_toRightOf="@+id/dollar_sign"
+        app:layout_constraintTop_toBottomOf="@id/add_message"
+        app:layout_constraintBottom_toTopOf="@+id/addButton"
+        android:imeOptions="actionNext|flagNoExtractUi"/>
+
+    <TextView
+        android:id="@+id/decimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decimal_point"
+        android:textSize="24sp"
+        app:layout_constraintRight_toLeftOf="@+id/cents"
+        app:layout_constraintLeft_toRightOf="@+id/dollars"
+        app:layout_constraintTop_toBottomOf="@id/add_message"
+        app:layout_constraintBottom_toTopOf="@+id/addButton"/>
+
+    <EditText
+        android:id="@+id/cents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/_00"
+        android:textSize="22sp"
+        android:maxLength="2"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/decimal"
+        app:layout_constraintTop_toBottomOf="@id/add_message"
+        app:layout_constraintBottom_toTopOf="@+id/addButton"
+        android:imeOptions="actionDone|flagNoExtractUi"/>
+
+    <ImageButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/image_button_spacer_2dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Add button"
+        android:paddingTop="@dimen/image_button_spacer_6dp"
+        android:paddingBottom="@dimen/image_button_spacer_6dp"
+        android:src="@drawable/ic_done_black_36dp"
+        android:text="@string/add_this_amount"
+        android:tint="?attr/mainImageButtonTint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/cancelButton"
+        app:layout_constraintTop_toBottomOf="@+id/cents" />
+
+    <ImageButton
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/image_button_spacer_2dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Cancel button"
+        android:paddingTop="@dimen/image_button_spacer_6dp"
+        android:paddingBottom="@dimen/image_button_spacer_6dp"
+        android:src="@drawable/ic_clear_black_36dp"
+        android:text="@string/cancel_button"
+        android:tint="?attr/mainImageButtonTint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/addButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cents" />
+
+</android.support.constraint.ConstraintLayout>

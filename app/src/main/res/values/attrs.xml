@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mainImageButtonTint" format="reference"/>
+    <attr name="periodButtonTextAndOutlineColor" format="reference"/>
+    <attr name="counterTextColor" format="reference"/>
+    <attr name="navigationHeaderTextColor" format="reference"/>
+    <attr name="actionBarIconColor" format="reference"/>
+    <attr name="periodGraphBackgroundColor" format="reference"/>
+    <attr name="periodGraphAxesColor" format="reference"/>
+    <attr name="periodGraphTrendlineColor" format="reference"/>
+    <attr name="bottomAppBarBackground" format="reference"/>
+    <attr name="breakLineColor" format="reference"/>
+    <attr name="recyclerViewBackgroundColor" format="reference"/>
+    <attr name="fragmentBackgroundColor" format="reference"/>
+    <attr name="recyclerViewGraphTitleColor" format="reference"/>
+    <attr name="uIImageButtonTint" format="reference"/>
+    <attr name="navigationSelectedTextAndIconColor" format="reference"/>
+    <attr name="navigationTextAndIconColor" format="reference"/>
+
+
+
+
+
+
+
+
+</resources>

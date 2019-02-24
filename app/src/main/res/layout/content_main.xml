@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_marginBottom="?attr/actionBarSize"
+    android:background="?attr/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DebtCollectorActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/weekly_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:minHeight="24dp"
+        android:text="Weekly"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@drawable/button_text_color"
+        app:layout_constraintBottom_toTopOf="@id/guideline_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/monthly_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/monthly_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:minHeight="24dp"
+        android:text="Monthly"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@drawable/button_text_color"
+        app:layout_constraintBottom_toTopOf="@id/guideline_top"
+        app:layout_constraintLeft_toRightOf="@id/weekly_button"
+        app:layout_constraintRight_toLeftOf="@id/yearly_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/yearly_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:minHeight="24dp"
+        android:text="Yearly"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@drawable/button_text_color"
+        app:layout_constraintBottom_toTopOf="@id/guideline_top"
+        app:layout_constraintLeft_toRightOf="@id/monthly_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/breakLineColor"
+        app:layout_constraintTop_toBottomOf="@id/guideline_top" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/graph_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/recyclerViewBackgroundColor"
+        app:layout_constraintBottom_toTopOf="@id/guideline_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_top"
+        android:clipToPadding="false" />
+
+    <TextView
+        android:id="@+id/current_debt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_debt"
+        android:fontFamily="sans-serif-light"
+        android:textColor="?attr/counterTextColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/current_debt_value"
+        app:layout_constraintTop_toBottomOf="@id/guideline_bottom"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/current_debt_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="sans-serif-light"
+        android:textColor="?attr/counterTextColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/current_debt"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_bottom" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="?attr/breakLineColor"
+        />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        app:layout_constraintGuide_percent="0.85" />
+
+
+</android.support.constraint.ConstraintLayout>

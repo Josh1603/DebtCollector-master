@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- theme names array -->
+    <string-array name="themes_array">
+        <item>Beluga</item>
+        <!--item>default theme</item-->
+
+        <item>Wisteria</item>
+        <!--item>halloween theme</item-->
+
+        <item>Soft Pastel</item>
+        <!--item>rose's theme</item-->
+
+    </string-array>
+
+
+    <!-- theme values array -->
+    <string-array name="theme_values_array">
+        <!--item>default theme</item-->
+        <item>defaultTheme</item>
+
+        <!--item>halloween theme</item-->
+        <item>wisteriaTheme</item>
+
+        <!--item>rose's theme</item-->
+        <item>softPastelTheme</item>
+
+    </string-array>
+</resources>

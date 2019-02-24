@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="darkGrey">#5A5A5A</color>
+    <color name="lightGrey">#C2C2C2</color>
+
+    <color name="darkBeluga">#1F618D</color>
+    <color name="shadedBeluga">#2980B9</color>
+    <color name="beluga">#5499C7</color>
+    <color name="lightBeluga">#7FB3D5</color>
+    <color name="superLightBeluga">#D4E6F1</color>
+    <color name="ultraLightBeluga">#EAF2F8</color>
+    <color name="megaLightBeluga">#F5F6FA</color>
+
+
+    <color name="darkWisteria">#4a235a</color>
+    <color name="shadedWisteria">#613E70</color>
+    <color name="wisteria">#704d7f</color>
+    <color name="lightWisteria">#d2b4de</color>
+    <color name="superLightWisteria">#f4ecf7</color>
+
+    <color name="millenialPrimaryColor">#bbc7ba</color>
+    <color name="millenialPrimaryDarkColor">#99a89e</color>
+    <color name="millenialBackgroundColor">#d7dbd1</color>
+    <color name="millenialColorAccent">#807f89</color>
+    <color name="millenialCounterTextColor">#807f89</color>
+    <color name="millenialImageButtonTint">#807f89</color>
+    <color name="millenialNavigationHeaderTextColor">#807f89</color>
+    <color name="millenialHeaderIconAndTextColor">#807f89</color>
+    <color name="millenialWindowBackgroundColor">#d7dbd1</color>
+    <color name="millenialTextColor">#807f89</color>
+    <color name="millenialPrimaryTextColor">#807f89</color>
+    <color name="millenialSecondaryTextColor">#807f89</color>
+    <color name="rosesColorMillenialMylk">#d7dbd1</color>
+    <color name="rosesColorMillenialSage">#bbc7ba</color>
+    <color name="rosesColorMillenialOlive">#99a89e</color>
+    <color name="rosesColorMillenialGrey">#807f89</color>
+    <color name="rosesColorPrimaryTextColor">@android:color/darker_gray</color>
+    <color name="rosesColorMillenialPink">#eca4a6</color>
+    <color name="rosesColorMillenialQuartz">#f9d5d3</color>
+
+</resources>

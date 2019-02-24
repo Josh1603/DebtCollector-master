@@ -1,0 +1,202 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Default theme. -->
+    <style name="DefaultAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/beluga</item>
+        <item name="colorPrimaryDark">@color/shadedBeluga</item>
+        <item name="background">@color/ultraLightBeluga</item>
+        <item name="colorAccent">@color/beluga</item>
+        <item name="counterTextColor">@color/darkBeluga</item>
+        <item name="mainImageButtonTint">@color/darkBeluga</item>
+        <item name="uIImageButtonTint">@color/white</item>
+        <item name="navigationHeaderTextColor">@color/white</item>
+        <item name="actionBarIconColor">@color/white</item>
+
+        <item name="periodButtonTextAndOutlineColor">@color/beluga</item>
+        <item name="periodGraphBackgroundColor">@color/ultraLightBeluga</item>
+        <item name="periodGraphAxesColor">@color/darkGrey</item>
+        <item name="periodGraphTrendlineColor">@color/beluga</item>
+        <item name="bottomAppBarBackground">@color/beluga</item>
+        <item name="breakLineColor">@color/superLightBeluga</item>
+        <item name="recyclerViewBackgroundColor">@color/superLightBeluga</item>
+        <item name="fragmentBackgroundColor">@color/megaLightBeluga</item>
+        <item name="recyclerViewGraphTitleColor">@color/darkBeluga</item>
+        <item name="navigationSelectedTextAndIconColor">@color/beluga</item>
+        <item name="navigationTextAndIconColor">@color/darkGrey</item>
+
+
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:windowBackground">@color/ultraLightBeluga</item>
+        <item name="android:textColor">@color/darkBeluga</item>
+        <item name="android:textColorPrimary">@color/darkGrey</item>
+        <item name="android:textColorSecondary">@color/darkGrey</item>
+
+        <item name="actionOverflowButtonStyle">@style/belugaOverflowButtonStyle</item>
+        <item name="actionBarTheme">@style/belugaDrawerArrowToggleStyle</item>
+        <item name="drawerArrowStyle">@style/belugaDrawerArrowStyle</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="alertDialogTheme">@style/DefaultAlertDialogStyle</item>
+
+    </style>
+
+    <style name="belugaOverflowButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="belugaDrawerArrowToggleStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="belugaDrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="DefaultAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/megaLightBeluga</item>
+        <item name="android:textColor">@color/darkBeluga</item>
+        <item name="android:textColorSecondary">@color/darkBeluga</item>
+        <item name="textColorAlertDialogListItem">@color/darkBeluga</item>
+        <item name="colorAccent">@color/beluga</item>
+    </style>
+
+
+    <!-- Wisteria theme! -->
+    <style name="Wisteria" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/wisteria</item>
+        <item name="colorPrimaryDark">@color/shadedWisteria</item>
+        <item name="background">@color/white</item>
+        <item name="colorAccent">@color/wisteria</item>
+        <item name="counterTextColor">@color/darkWisteria</item>
+        <item name="mainImageButtonTint">@color/darkWisteria</item>
+        <item name="uIImageButtonTint">@color/white</item>
+        <item name="navigationHeaderTextColor">@color/white</item>
+        <item name="actionBarIconColor">@color/white</item>
+
+        <item name="periodButtonTextAndOutlineColor">@color/wisteria</item>
+        <item name="periodGraphBackgroundColor">@color/white</item>
+        <item name="periodGraphAxesColor">@color/darkGrey</item>
+        <item name="periodGraphTrendlineColor">@color/wisteria</item>
+        <item name="bottomAppBarBackground">@color/wisteria</item>
+        <item name="breakLineColor">@color/superLightWisteria</item>
+        <item name="recyclerViewBackgroundColor">@color/superLightWisteria</item>
+        <item name="fragmentBackgroundColor">@color/white</item>
+        <item name="recyclerViewGraphTitleColor">@color/darkWisteria</item>
+        <item name="navigationSelectedTextAndIconColor">@color/wisteria</item>
+        <item name="navigationTextAndIconColor">@color/darkGrey</item>
+
+
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/darkWisteria</item>
+        <item name="android:textColorPrimary">@color/darkGrey</item>
+        <item name="android:textColorSecondary">@color/darkGrey</item>
+
+        <item name="actionOverflowButtonStyle">@style/purpleOverflowButtonStyle</item>
+        <item name="actionBarTheme">@style/purpleDrawerArrowToggleStyle</item>
+        <item name="drawerArrowStyle">@style/purpleDrawerArrowStyle</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="alertDialogTheme">@style/PurpleAlertDialogStyle</item>
+
+    </style>
+
+    <style name="purpleOverflowButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="purpleDrawerArrowToggleStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="purpleDrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="PurpleAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/darkWisteria</item>
+        <item name="android:textColorSecondary">@color/millenialHeaderIconAndTextColor</item>
+        <item name="textColorAlertDialogListItem">@color/millenialHeaderIconAndTextColor</item>
+        <item name="colorAccent">@color/darkWisteria</item>
+    </style>
+
+
+
+
+
+    <!-- Soft Pastel theme! -->
+    <style name="SoftPastel" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/millenialPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/millenialPrimaryDarkColor</item>
+        <item name="background">@color/millenialBackgroundColor</item>
+        <item name="colorAccent">@color/millenialColorAccent</item>
+        <item name="counterTextColor">@color/millenialCounterTextColor</item>
+        <item name="mainImageButtonTint">@color/millenialImageButtonTint</item>
+        <item name="uIImageButtonTint">@color/millenialImageButtonTint</item>
+        <item name="navigationHeaderTextColor">@color/millenialNavigationHeaderTextColor</item>
+        <item name="actionBarIconColor">@color/millenialHeaderIconAndTextColor</item>
+
+        <item name="periodButtonTextAndOutlineColor">@color/millenialImageButtonTint</item>
+        <item name="periodGraphBackgroundColor">@color/millenialBackgroundColor</item>
+        <item name="periodGraphAxesColor">@color/millenialPrimaryDarkColor</item>
+        <item name="periodGraphTrendlineColor">@color/millenialColorAccent</item>
+        <item name="bottomAppBarBackground">@color/millenialPrimaryColor</item>
+        <item name="breakLineColor">@color/lightGrey</item>
+        <item name="recyclerViewBackgroundColor">@color/lightGrey</item>
+        <item name="fragmentBackgroundColor">@color/millenialBackgroundColor</item>
+        <item name="recyclerViewGraphTitleColor">@color/millenialImageButtonTint</item>
+        <item name="navigationSelectedTextAndIconColor">@color/millenialPrimaryDarkColor</item>
+        <item name="navigationTextAndIconColor">@color/millenialSecondaryTextColor</item>
+
+        <item name="titleTextColor">@color/millenialHeaderIconAndTextColor</item>
+        <item name="android:windowBackground">@color/millenialWindowBackgroundColor</item>
+        <item name="android:textColor">@color/millenialTextColor</item>
+        <item name="android:textColorPrimary">@color/millenialPrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/millenialSecondaryTextColor</item>
+
+        <item name="actionOverflowButtonStyle">@style/millenialOverflowButtonStyle</item>
+        <item name="actionBarTheme">@style/millenialDrawerArrowToggleStyle</item>
+        <item name="drawerArrowStyle">@style/millenialDrawerArrowStyle</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="alertDialogTheme">@style/MillenialAlertDialogStyle</item>
+    </style>
+
+    <style name="millenialOverflowButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/millenialHeaderIconAndTextColor</item>
+    </style>
+
+    <style name="millenialDrawerArrowToggleStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/millenialHeaderIconAndTextColor</item>
+    </style>
+
+    <style name="millenialDrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/millenialHeaderIconAndTextColor</item>
+    </style>
+
+    <style name="MillenialAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/millenialBackgroundColor</item>
+        <item name="android:textColor">@color/millenialHeaderIconAndTextColor</item>
+        <item name="android:textColorSecondary">@color/millenialHeaderIconAndTextColor</item>
+        <item name="textColorAlertDialogListItem">@color/millenialHeaderIconAndTextColor</item>
+        <item name="colorAccent">@color/millenialColorAccent</item>
+    </style>
+
+
+
+
+
+
+    <style name="DefaultAppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

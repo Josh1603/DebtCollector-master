@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list_item_graph_details"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:textColor="?attr/recyclerViewGraphTitleColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <syd.jjj.debtcollector.PeriodGraphView
+        android:layout_gravity="center"
+        android:id="@+id/list_item_graph"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
